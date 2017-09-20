@@ -53,6 +53,7 @@ public class InsertLinkedList {
         ll.sortedInsert(new_node);
         new_node = ll.newNode(9);
         ll.sortedInsert(new_node);
+        System.out.println("create a linked list");
         ll.printList();
 
 		
