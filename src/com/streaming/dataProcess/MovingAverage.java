@@ -17,7 +17,7 @@ this.sum = 0;
 // finds moving average after inserting item n into data stream
 private double findMovingAverage(int n) {
 if (queue.size() > windowsize - 1) {
-sum = sum - queue.poll();
+//sum = sum - queue.poll();
 }
 queue.offer(n);
 sum = sum + n;

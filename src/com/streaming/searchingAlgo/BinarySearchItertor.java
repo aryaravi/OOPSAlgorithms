@@ -36,7 +36,7 @@ public class BinarySearchItertor {
 	        int arr[] = {2, 3, 4, 10, 40};
 	        int n = arr.length;
 	        int x = 10;
-	        int result = ob.binarySearch(arr, x);
+	      int result = ob.binarySearch(arr, x);
 	        if (result == -1)
 	            System.out.println("Element not present");
 	        else

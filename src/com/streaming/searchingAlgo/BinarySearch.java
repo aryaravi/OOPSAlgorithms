@@ -4,7 +4,7 @@ public class BinarySearch {
 	
 	    // Returns index of x if it is present in arr[l..r], else
 	    // return -1
-	   public int binarySearch(int arr[], int l, int r, int x)
+	   public int binarySearch(int arr[], int l)
 	    {
 	        if (r>=l)
 	        {
